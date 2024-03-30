@@ -1,8 +1,44 @@
 body {
-    position: absolute;
-    height: 100%;
+    position: fixed;
     width: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
-    background-attachment: fixed; /** This must come after linear-gradient. **/
+    height: 100%;
+    font-family: "RoundBit", sans-serif;
+    background-color: #e81416;
+    background-attachment: fixed;
+    animation: cycle 20s ease infinite;
+}
+
+@font-face {
+    font-family: "RoundBit";
+    src: url('/fonts/Roundbit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@keyframes cycle {
+    0% {
+        background-color: #487de7;
+    }
+    14.28% {
+        background-color: #4b369d;
+    }
+    28.56% {
+        background-color: #70369d;
+    }
+    42.84% {
+        background-color: #e81416;
+    }
+    57.12% {
+        background-color: #ffa500;
+    }
+    71.4% {
+        background-color: #faeb36;
+    }
+    85.68% {
+        background-color: #79c314;
+    }
+    100% {
+        background-color: #487de7;
+    }
 }
