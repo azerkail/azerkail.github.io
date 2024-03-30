@@ -10,6 +10,7 @@
 <script setup lang="ts">
 // Use a static import for server-side compatibility
 import '~/assets/css/main.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const items = ref([
     {

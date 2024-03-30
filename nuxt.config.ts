@@ -5,6 +5,5 @@ export default defineNuxtConfig({
         typeCheck: true
     },
     ssr: true,
-    spaLoadingTemplate: false,
-    css: ['@fortawesome/fontawesome-svg-core/styles.css']
-})
+    spaLoadingTemplate: false
+});
