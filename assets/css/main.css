@@ -13,11 +13,25 @@ body {
     font-family: "RoundBit", serif;
     background-color: #e81416;
     background-attachment: fixed;
-    animation: cycle 20s ease infinite;
+    animation: cycle 30s ease infinite;
+    margin: 0;
+}
+
+.app {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
 }
 
 header {
-    position: fixed;
     height: 200px;
     width: 100%;
     text-align: center;

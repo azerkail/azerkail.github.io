@@ -1,3 +1,5 @@
 <template>
-    <Header/>
+    <div class="app">
+        <Header/>
+    </div>
 </template>
