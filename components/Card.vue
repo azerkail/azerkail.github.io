@@ -4,7 +4,7 @@
         <div class="card-content">
             <h2>{{ game }}</h2>
             <h4>{{ job }}</h4>
-            <p style="white-space: pre-wrap;">{{ body }}</p>
+            <p class="card-body">{{ body }}</p>
         </div>
     </div>
 </template>

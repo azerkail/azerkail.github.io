@@ -88,7 +88,7 @@ h1 {
     text-shadow: 1px 1px 2px #212121;
 }
 
-.card:first-child {
+.card:nth-child(1n+1) {
     background-color: #80BCBD;
 }
 
@@ -105,14 +105,20 @@ h1 {
 }
 
 .card-image {
-    max-width: 356px;
+    width: 356px;
     max-height: 300px;
-    width: auto;
     height: auto;
     object-fit: scale-down;
 }
 
 .card-content {
+    flex: 1;
+}
+
+.card-body {
+    white-space: pre-wrap;
+    font-size: 18px;
+    overflow: hidden;
 }
 
 @keyframes divider {
