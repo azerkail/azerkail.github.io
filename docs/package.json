@@ -1,0 +1,19 @@
+{
+  "name": "Tiago-Portfolio",
+  "version": "0.0.1",
+  "description": "Tiago Magalhães Portfolio",
+  "main": "index.js",
+  "authors": {
+    "name": "Tiago",
+    "email": "tmagdev@gmail.com"
+  },
+  "repository": "https://github.com/azerkail/azerkail.github.io/Tiago-Portfolio",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
