@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a, a:visited {
     color: inherit;
 }
 
@@ -109,6 +109,7 @@ h1 {
     max-height: 300px;
     width: auto;
     height: auto;
+    object-fit: scale-down;
 }
 
 .card-content {
