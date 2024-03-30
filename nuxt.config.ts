@@ -5,5 +5,6 @@ export default defineNuxtConfig({
         typeCheck: true
     },
     ssr: true,
-    spaLoadingTemplate: false
+    spaLoadingTemplate: false,
+    css: ['~/assets/css/main.css']
 })
