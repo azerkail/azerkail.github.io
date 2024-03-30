@@ -1,6 +1,10 @@
 <template>
     <div class="card">
         <img class="card-image" :src="image" :alt="title"/>
+        <div class="card-content">
+            <h2>{{ title }}</h2>
+            <p>{{ body }}</p>
+        </div>
     </div>
 </template>
 
@@ -8,6 +12,6 @@
 defineProps<{
     image: string,
     title: string,
-    text?: string
+    body?: string
 }>()
 </script>

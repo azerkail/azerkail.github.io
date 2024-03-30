@@ -4,8 +4,8 @@
         <div class="divider"/>
         <ul class="social">
             <li>
-                <a href="https://twitter.com/azerkail" target="_blank">
-                    <font-awesome-icon class="icon" icon="fa-brands fa-twitter"/>
+                <a href="https://www.linkedin.com/in/tmagdev/" target="_blank">
+                    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin"/>
                 </a>
             </li>
             <li>
@@ -14,8 +14,8 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/tmagdev/" target="_blank">
-                    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin"/>
+                <a href="https://twitter.com/azerkail" target="_blank">
+                    <font-awesome-icon class="icon" icon="fa-brands fa-twitter"/>
                 </a>
             </li>
         </ul>
