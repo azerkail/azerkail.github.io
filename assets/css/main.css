@@ -1,19 +1,26 @@
+@font-face {
+    font-family: "RoundBit";
+    src: url('/public/fonts/RoundBit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     position: fixed;
     width: 100%;
     height: 100%;
-    font-family: "RoundBit", sans-serif;
+    font-family: "RoundBit", serif;
     background-color: #e81416;
     background-attachment: fixed;
     animation: cycle 20s ease infinite;
 }
 
-@font-face {
-    font-family: "RoundBit";
-    src: url('/fonts/Roundbit-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+header {
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    text-align: center;
 }
 
 @keyframes cycle {
