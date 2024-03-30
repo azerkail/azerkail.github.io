@@ -6,5 +6,5 @@ export default defineNuxtConfig({
     },
     ssr: true,
     spaLoadingTemplate: false,
-    css: ['~/assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css']
+    css: ['@fortawesome/fontawesome-svg-core/styles.css']
 })

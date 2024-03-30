@@ -8,6 +8,9 @@
 </template>
 
 <script setup lang="ts">
+// Use a static import for server-side compatibility
+import '~/assets/css/main.css';
+
 const items = ref([
     {
         image: "/images/sdt-logo.png",
