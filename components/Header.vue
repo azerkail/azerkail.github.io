@@ -4,7 +4,7 @@
         <div class="divider"/>
         <ul class="social">
             <li>
-                <a href="https://drive.google.com/file/d/10gVEAlWgVir4w7fP6oWxOP6Zt_4EnCfM/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1M9_Ua_XtIEyapar51VYvBkRtggZS2Ob8/view?usp=sharing" target="_blank">
                     <font-awesome-icon class="icon" icon="fa-solid fa-download"/>
                 </a>
             </li>
