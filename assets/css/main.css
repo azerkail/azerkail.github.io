@@ -125,10 +125,15 @@ h1 {
 
 @media (max-width: 800px) {
     h1 {
-        font-size: 61px;
+        font-size: 48px;
     }
 
     .card {
         flex-direction: column;
+    }
+
+    .card-image {
+        width: unset;
+        max-width: 356px;
     }
 }
