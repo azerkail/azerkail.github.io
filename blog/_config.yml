@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Tiago Does Games
 subtitle: ''
-description: ''
+description: 'I write articles about various game development lessons I learn over the years.'
 keywords:
-author: John Doe
+author: Tiago Magalhães
 language: en
-timezone: ''
+timezone: 'Europe/London'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://azerkail.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
