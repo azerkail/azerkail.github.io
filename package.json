@@ -6,10 +6,10 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server -p 5000 --drafts"
+    "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": ""
   },
   "dependencies": {
     "hexo": "^7.3.0",
