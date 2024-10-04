@@ -2,7 +2,7 @@
 title: About
 date: 2024-10-04 21:53:42
 ---
-Hey there!
+What fortunate happenstance that we happen to meet!
 
 I'm Tiago, here's a few things about me and this website:
 - I'm 🇵🇹
